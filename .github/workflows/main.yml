@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: kustomzone/hello-world-action@v1.1
+      uses: kustomzone/hello-world-action@main
       with:
         who-to-greet: 'Guest'
     # Use the output from the `hello` step
