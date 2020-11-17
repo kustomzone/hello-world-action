@@ -18,7 +18,14 @@
   },
   "homepage": "https://github.com/actions/hello-world-javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.1.0",
-    "@actions/github": "^1.1.0"
-  }
+    "@actions/artifact": "^0.4.1",
+    "@actions/cache": "^1.0.4",
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^1.1.0",
+    "@actions/glob": "^0.1.1",
+    "@actions/io": "^1.0.2",
+    "@actions/tool-cache": "^1.6.1"
+  },
+  "devDependencies": {}
 }
